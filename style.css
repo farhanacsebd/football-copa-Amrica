@@ -1,0 +1,202 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    font-family:'Poppins', sans-serif;
+    margin:0;
+}
+h1{
+    font-size: 64px;
+    color: white;
+    
+}
+h2{
+    font-size: 48px;
+    color: #0A0826;
+}
+p{
+    color: #6C6C6C;
+    font-size: 16px;
+}
+section{
+    margin-bottom: 70px;
+}
+/*............1st section copa america..........*/
+
+
+.america{
+    background-color: #2D25A0;
+    display: flex;
+    padding: 70px;
+}
+.half-wide{
+    width: 50%;
+    
+}
+.half-wide img{
+    width: 100%;
+}
+/* .half-width:hover img{
+    transform: scale(1.3) skew(20deg);
+    transition: transform 1s ease-in-out;
+} */
+.batton{
+   background-color: #E02C6D;
+    text-decoration: none;
+    color: white;
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    border-radius: 5px;
+    
+}
+.batton:hover {
+    background-color: red;
+    
+  }
+
+  /* ...................2nd section copa America players................... */
+
+
+
+  .players-champ{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    margin-left: 100px;
+    margin-right: 100px;
+
+  }
+  .players{
+      display: flex;
+      justify-content:space-evenly;
+      margin-top: 27px;
+
+  }
+  .player{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width:330px;
+    border-radius: 3px;
+  }
+
+  .player-box{
+    width:300px;
+    padding: 15px;
+  }
+  .player-box img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+/* ......................3rd section...................... */
+
+.highlights{
+    display: flex;
+    padding:75px;
+}
+.half-side{
+    width: 47%;
+    padding-right: 66px;
+}
+.half-side img{
+    width: 113%;
+}
+
+.batton-new{
+    background-color: #E02C6D;
+     text-decoration: none;
+     color: white;
+     width: 168px;
+     height: 44px;
+     padding: 10px 24px;
+     border-radius: 5px;
+     
+ }
+ .batton-new:hover {
+     background-color: red;
+     
+   }
+
+
+   /* ...............,......4th section ........................ */
+
+   .footer-pic{
+    display: flex;
+    justify-content: center;
+   }
+   
+   .footer-pic img{
+       width: 30%;
+   }
+   .icon{
+       display: flex;
+       justify-content: center;
+       color: #969BAB;
+       font-size: 17px;
+   }
+   .Copyright{
+    text-align: center;
+}
+
+
+/*..........................Destop responsive..........................*/
+
+@media screen and (max-width: 688px){
+    .america, .players-champ,.highlights, .footer-part{
+        display: grid;
+       grid-template-columns: repeat(1,1fr)
+    }
+
+    h1{
+        font-size: 36px;
+    }
+    .half-wide{
+        width: 45%;
+        padding-bottom: 60px;
+    }
+
+    .half-wide img{
+        width: 250%;
+  }
+  h2{
+      font-size: 30px;
+  }
+
+  .half-side{
+    width: 46%;
+    padding-bottom: 60px;
+    padding-right:20px ;
+}
+.half-side img{
+    width: 250%;
+}
+.players-champ{
+    margin: 0;
+} 
+}
+
+  @media only screen and (min-width:689px) and (max-width:992px){
+    .america, .players-champ,.highlights{
+        display: grid;
+       grid-template-columns: repeat(2,1fr)
+    }
+    h1{
+        font-size: 36px;
+    }
+    .half-wide img{
+        width: 240%;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+    .half-side{
+        width: 50%;
+    }
+    .half-side img{
+        width: 240%;
+    }
+    .players-champ{
+        margin: 0;
+    } 
+  }
+  
