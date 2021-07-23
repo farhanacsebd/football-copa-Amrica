@@ -1,5 +1,7 @@
 /* font style */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
 body{
     font-family:'Poppins', sans-serif;
     margin:0;
@@ -20,13 +22,54 @@ p{
 section{
     margin-bottom: 70px;
 }
+/* navbar */
+
+.navbar{
+    background-color: #2D25A0;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 42px 0;
+
+}
+
+.nav-manu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item{
+    cursor: pointer;
+    margin: 0 8px;
+    padding: 6px 10px;
+}
+
+.button-outline{
+    list-style: none;
+    background-color: #E02C6D; 
+     width: 123px;
+    height: 44px;
+    text-align: center;
+    padding: 7px 0;
+    box-sizing: border-box;
+    margin: 0 100px;
+    border-radius: 3px;
+}
+
+.button-outline:hover{
+    background-color: red;
+    
+  }
 /*............1st section copa america..........*/
 
 
 .america{
     background-color: #2D25A0;
     display: flex;
-    padding: 70px;
+    padding:0 70px;
 }
 .half-wide{
     width: 50%;
@@ -40,7 +83,7 @@ section{
     transition: transform 1s ease-in-out;
 }
 .batton{
-   background-color: #E02C6D;
+   background-color: #e2105d;
     text-decoration: none;
     color: white;
     width: 168px;
